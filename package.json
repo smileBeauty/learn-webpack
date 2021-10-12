@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "description": "webpack",
+  "scripts": {},
+  "keywords": [
+    "webpack"
+  ],
+  "author": "mari",
+  "license": "MIT"
+}

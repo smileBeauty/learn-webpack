@@ -1,0 +1,20 @@
+{
+    "name": "chapter01",
+    "version": "1.0.0",
+    "description": "demo",
+    "main": "src/index.js",
+    "scripts": {
+        "build": "webpack",
+        "build:dev": "webpack --config webpack.config.dev.js",
+        "build:prd": "webpack --config webpack.config.prd.js"
+    },
+    "keywords": [
+        "demo"
+    ],
+    "author": "mari",
+    "license": "MIT",
+    "devDependencies": {
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    }
+}
